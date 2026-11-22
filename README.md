@@ -6,10 +6,10 @@ A Retrieval-Augmented Generation (RAG) application that allows users to ask ques
 
 - PDF text extraction using PyMuPDF
 - Text chunking with overlap
-- OpenAI text embeddings
+- Gemini text embeddings
 - Qdrant vector database
 - Semantic search and retrieval
-- GPT-4o-mini answer generation
+- gemini-3.1-flash-lite answer generation
 - Source filename and page citation
 - FastAPI endpoints for PDF processing and question answering
 
@@ -17,7 +17,7 @@ A Retrieval-Augmented Generation (RAG) application that allows users to ask ques
 
 - Python
 - FastAPI
-- OpenAI API
+- Gemini API
 - Qdrant Cloud
 - PyMuPDF
 - Uvicorn
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```env
-OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY=your_gemini_api_key
 QDRANT_URL=your_qdrant_url
 QDRANT_API_KEY=your_qdrant_api_key
 ```
